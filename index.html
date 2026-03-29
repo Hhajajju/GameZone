@@ -187,13 +187,15 @@
     </div>
 
     <script>
-        const firebaseConfig = { apiKey: "Your Id Enter", authDomain: "Your Id Enter", databaseURL: "Your Id Enter", projectId: "Your Id Enter", storageBucket: "Your Id Enter", messagingSenderId: "Your Id Enter", appId: "1:633619506570:web:5b968c9ef7b8eb21f11473" };
-        const appId = "Your Id Enter";
-
-        firebase.initializeApp(firebaseConfig);
-        const auth = firebase.auth();
-        const db = firebase.firestore();
-
+        const firebaseConfig = {
+  apiKey: "AIzaSyAoZm8ROjVbeJw7PLHATgB4EVMjxg_Ubqc",
+  authDomain: "game-zone-5c0a7.firebaseapp.com",
+  databaseURL: "https://game-zone-5c0a7-default-rtdb.firebaseio.com",
+  projectId: "game-zone-5c0a7",
+  storageBucket: "game-zone-5c0a7.firebasestorage.app",
+  messagingSenderId: "211495219098",
+  appId: "1:211495219098:web:e312b6acf0198bd7ea1423"
+};
         let currentUser = null, userData = null, gameTimerInterval = null, secondsPlayed = 0;
         let lastAdWatchTime = 0; // For Cooldown
 
